@@ -1,0 +1,23 @@
+*{ 
+    background-image: linear-gradient(-80deg, rgb(0, 81, 128), rgba(25, 223, 91, 0.87));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    font-weight: 750;
+}
+h1{
+    font-size: 2.8em;
+    color: rgb(153, 0, 0);
+}
+input{
+    color: rgb(37, 37, 37);
+    border-color: aqua;
+    width: 20vw;
+    font-size: 1.7em;
+}
+button{
+    color: white;
+    border-color: aqua;
+    border-radius: 190;
+    width: 10vw;
+    font-size: 1.2em; 
+}

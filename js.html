@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- <p id="myText"></p>
+    <p id="secondText"></p>
+    <input type="text" value="lorem" id="inp">
+    <input type="text" placeholder="name"> -->
+   
+
+    <!-- 
+    <script>
+        // alert, innerText, innerHTML. value, console
+
+        // alert("hello world")
+        // alert(2 + 2);
+        // myText.innerText = "Hello World";
+        // secondText.innerHTML = "<b>Hello World</b>";
+        // inp.value = "Hello World"
+        // console.log(inp.value)
+    </script> -->
+
+<div style="text-align: center;  ">
+    <h1 style="text-align: center;">GRADING SYSTEM</h1>
+    <input type="text" placeholder="Enter your score..." style="height: 7vh;" id="scoreInput"><br>
+    <button
+    style="background-color: black; color: white; padding: 20px; border-radius: 10px;" onclick="grade()">GRADE</button>
+    <!-- <p id="result" style="font-size: 50pt; text-align:center" ></p> -->
+    <hr>
+    <hr>
+    <p id="result" style="font-size: 30pt; text-align: center">SEE RESULT HERE</p>
+
+</div>
+    <script>
+        var name = "Mahrus";
+        var age = 20;
+
+        
+       function grade () {
+        var scores = scoreInput.value;
+        if(scores == ""){
+            result.innerText = "Please input your score";
+            result.style.color = "white";       
+        } 
+        else if(scores <=30 ){
+            result.innerText = "FAIL 😜";
+            result.style.color = "red";
+        } 
+        else if ( scores > 31  && scores <= 49){
+            result.innerText = "poor 🙅";
+            result.style.color = "purple";
+        }
+        else if ( scores >= 50  && scores <= 59){
+            result.innerText = "Pass 😏";
+            result.style.color = "blue";
+        }
+        else if ( scores >= 60  && scores <= 69){
+            result.innerText = "Very Good 👊";
+            result.style.color = "green";
+        }
+        else if ( scores >= 70  && scores <= 100){
+            result.innerText = "Excellent 🙆";
+            result.style.color = "blue";
+        }
+        }
+        
+        
+    
+       
+        //  18 = You are now an adult 
+        //  below 18 = You are still a small child 
+        //  above 18 = Na adult you be! Twale
+
+        // if (age == 18){
+        //     alert("You are now an adult")
+        // } else if (age < 18){
+        //     alert("You are still a small child")
+        // } else if (age > 25) {
+        //     alert("Na adult you be! Twale")
+        // } else {
+        //     alert("so pe o ti lo")
+        // }
+        // alert("name");
+
+        // if (name == "Pelumi"){
+        //     alert("You are correct")
+        // } else {
+        //     alert("You are wrong")
+        // }
+        
+    </script>
+</body>
+</html>
